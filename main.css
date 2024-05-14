@@ -1,0 +1,71 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif; /* Default font family */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: rgba(255, 192, 203, 0.5); /* Background color */
+    padding: 50px; /* Padding around the navigation */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Align items vertically */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Display items inline */
+    margin-right: 20px; /* Space between items */
+}
+
+nav ul li a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underlines */
+}
+
+/* Main content styling */
+main {
+    padding: 20px; /* Padding around main content */
+}
+
+h1, h2, p {
+    color: #333; /* Text color */
+    text-align: center;
+}
+
+footer {
+    background-color: rgba(128, 70, 70, 0.8); /* Footer background color */
+    color: white; /* Text color */
+    text-align: center; /* Center align text */
+    padding: 10px; /* Padding around footer */
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #111; /* Dark background color */
+    color: #ddd; /* Light text color */
+}
+.dark-mode h1{
+    background-color: #111; /* Dark background color */
+    color: #ddd; /* Light text color */
+}
+
+.dark-mode nav ul li a {
+    color: #ddd; /* Light text color for navigation links */
+}
+
+.dark-mode footer {
+    background-color: #111; /* Dark background color for footer */
+}
+
+.dark-mode #darkModeToggle {
+    background-color: #555; /* Button background color */
+    color: white; /* Button text color */
+}
